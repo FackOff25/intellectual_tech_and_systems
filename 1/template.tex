@@ -1,0 +1,38 @@
+\documentclass[a4paper, 12pt]{article}
+\include{includes/packages}
+\include{includes/consts}
+\include{includes/styles}
+\begin{document}
+\input{includes/titlepage}
+\pagebreak
+\tableofcontents
+\newpage
+% Основная часть --------------------------------------------------------------------------------------------
+\section*{Цель}
+\addcontentsline{toc}{section}{Цель}
+Приобретение навыков проектирования и реализации основных
+элементов систем искусственного интеллекта
+\section*{Задание}
+\addcontentsline{toc}{section}{Задание}
+Дана база фактов элементов электрической принципиальной схемы. Написать программу, которая на основе фактов базы выводит на экран схему и выдает комментарии по каждому элементу.
+\newpage
+% -------------------------------------------------------
+\section{Структурная карта Константайна}
+\begin{center}
+  \centering
+  \includegraphics[width=.7\linewidth]{extra/constantine.png}
+  \captionof{figure}{Структурная карта Константайна}
+  \label{fig:prplot}
+\end{center}
+\section{Программа}
+\subsection{Код программы}
+%\lstinputlisting[caption=Листинг программы]{extra/LAB.PRO}
+\subsection{Результат выполнения программы}
+\newpage
+%---------------------------------------------------------
+\section{Вывод}
+В ходе данной лабораторной работы осуществлено
+ознакомление с базовыми функциями и принципами использования языка
+Turbo Prolog. Было осуществлено проектирование структуры и реализация
+программы для решения, поставленной задачи на данном языке.
+\end{document}
